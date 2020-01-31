@@ -1,3 +1,7 @@
 baseURL = "https://rwong.tech/"
 languageCode = "zh-CN"
 title = "蛙声一片"
+theme = "even"
+
+[permalinks]
+  posts = "/:year/:month/:title/"
