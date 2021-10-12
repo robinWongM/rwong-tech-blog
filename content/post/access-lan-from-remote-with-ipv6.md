@@ -1,5 +1,6 @@
 ---
 title: "使用 IPv6 + WireGuard 实现三 网 融 合"
+description: "如何在家里优雅地连接校园网"
 date: 2020-02-19T23:00:00+08:00
 ---
 

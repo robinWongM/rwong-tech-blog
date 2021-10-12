@@ -1,5 +1,6 @@
 ---
 title: "使用 Caddy http.git 自动部署 Hugo 博客仓库"
+description: "Let Git be the single source of truth"
 date: 2020-01-31T17:15:00+08:00
 ---
 
