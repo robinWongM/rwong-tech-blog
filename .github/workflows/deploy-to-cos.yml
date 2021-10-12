@@ -37,5 +37,5 @@ jobs:
           cos_region: ${{ secrets.COS_REGION }}
           local_path: public
           remote_path: /
-          clean: true
+          clean: "true"
   
