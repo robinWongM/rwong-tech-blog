@@ -2,6 +2,7 @@
 title: "从零开始为一加 9R 编译 AOSP"
 description: ""
 date: 2023-11-19T00:00:00+08:00
+draft: true
 ---
 
 1. 从镜像站下载 AOSP 镜像
