@@ -1,6 +1,6 @@
 ---
 title: "在 2023 年，如何防止 CSRF 攻击"
-description: "It's simple"
+description: "It's damn simple"
 date: 2023-11-21T00:00:00+08:00
 ---
 
@@ -45,7 +45,16 @@ app.use(async (ctx, next) => {
 });
 ```
 
-That's it! 
+完事！
+
+## 如果我需要跨域怎么办
+
+你需要这样配置 CORS 头：
+
+- `Access-Control-Allow-Origin`: 你的前端页面的 origin，例如 `https://homesweethome.com`。**不可以设置为 `*`。**
+- `Access-Control-Allow-Headers`: 你的自定义请求头 key，例如 `X-CSRF-PROTECTION`。**不可以设置为 `*`。**
+
+目的在于，不可以让来自其他网站的请求可以带上你的自定义请求头。所以必须限制只有来自你的前端页面的请求可以带上自定义请求头。
 
 ## Reference
 
