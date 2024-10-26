@@ -4,5 +4,8 @@
   },
   "scripts": {
     "build": "hugo --minify"
+  },
+  "hugo-bin": {
+    "buildTags": "extended"
   }
 }
